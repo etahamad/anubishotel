@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hotel Registration Page</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row col-md-6 col-md-offset-3">
+        <div class="panel panel-primary">
+          <div class="panel-heading text-center">
+            <h1>Hotel Registration Form</h1>
+          </div>
+          <div class="panel-body">
+            <form action="signup.php" method="post">
+            <div class="form-group">
+                <label for="gGuestID">Guest ID</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gGuestID"
+                  name="gGuestID"
+                />
+              <div class="form-group">
+                <label for="gFirstName">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gFirstName"
+                  name="gFirstName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gLastName">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gLastName"
+                  name="gLastName"
+                />
+              </div>
+              <div class="form-group">
+                <label for="gGender">Gender</label>
+                <div>
+                  <label for="male" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gGender"
+                      value="m"
+                      id="male"
+                    />Male</label
+                  >
+                  <label for="female" class="radio-inline"
+                    ><input
+                      type="radio"
+                      name="gGender"
+                      value="f"
+                      id="female"
+                    />Female</label
+                  >
+              <div class="form-group">
+                <label for="gCountry">Country</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gCountry"
+                  name="gCountry"
+                />
+              <div class="form-group">
+                <label for="gCity">City</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gCity"
+                  name="gCity"
+                />
+              <div class="form-group">
+                <label for="gAddress">Address</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="gAddress"
+                  name="gAddress"
+                />
+              <div class="form-group">
+                <label for="gPhoneNumber">Phone Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="gPhoneNumber"
+                  name="gPhoneNumber"
+                />
+              <div class="form-group">
+                <label for="gHomePhoneNumber">Lndline Number</label>
+                <input
+                  type="number"
+                  class="form-control"
+                  id="gHomePhoneNumber"
+                  name="gHomePhoneNumber"
+                />
+              <div class="form-group">
+                <label for="gEmail">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="gEmail"
+                  name="gEmail"
+                />
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+              <input type="submit" class="btn btn-primary" />
+            </form>
+          </div>
+          <div class="panel-footer text-right">
+            <small>&copy; Anubis Team 2021</small>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  </body>
+</html>
